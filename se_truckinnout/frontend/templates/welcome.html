@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    {% load static %}
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Welcome to TruckInOut</title>
+    <link rel="stylesheet" href="{% static 'css/welcome.css' %}" />
+  </head>
+  <body>
+    <div class="welcome-page">
+      <div class="welcome-container">
+        <img
+          src="{% static 'images/tinoicon.png' %}"
+          alt="Truck Icon"
+          class="truck-icon"
+        />
+        <h1>WELCOME TO</h1>
+        <h2>TRUCKIN-N-OUT</h2>
+        <button class="get-started-btn">GET STARTED</button>
+      </div>
+    </div>
+  </body>
+</html>
